@@ -10,6 +10,9 @@ module.exports = {
         "color-secondary-dark": "#463F7E4D",
         "color-white": "#fff",
         "color-black": "#000",
+        "color-darkblue": "#B4B4DE",
+        "color-blue": "rgba(132, 132, 223, 0.00)",
+        "color-gradient": "(323deg, #B4B4DE 0%, rgba(132, 132, 223, 0.00) 100%)",
       },
     },
 
