@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <header>
+      <nav class="container flex justify-between">
+        <!-- logo  -->
+        <div
+          id="logo"
+          class="text-color-white py-4 text-xl font-bold uppercase leading-relaxed"
+        >
+          <a href="#">Krypto</a>
+        </div>
+
+        <!-- nav-list  -->
+        <div>
+          <ul class="hidden items-center space-x-5 py-4 md:flex">
+            <li>
+              <a
+                href="#home"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#buy"
+                class="text-color-white hover:text-color-secondary ease border-color-secondary rounded-xl border border-solid px-7 py-2 text-lg font-bold leading-relaxed transition duration-200"
+                >Buy Nfts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- mobile screen  -->
+        <div id="hamburger" class="z-50 cursor-pointer py-4 text-4xl md:hidden">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div
+          id="menu"
+          class="bg-color-black absolute inset-y-0 right-0 hidden h-[100vh] w-[300px] rounded-l-3xl"
+        >
+          <ul class="grid space-y-7 py-28 pr-7 text-end">
+            <li>
+              <a href="#home" 
+                id="hLink"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200">
+                Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                id="hLink"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                id="hLink"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                id="hLink"
+                class="text-color-white hover:text-color-secondary ease text-lg font-normal leading-relaxed transition duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#buy"
+                id="hLink"
+                class="text-color-white hover:text-color-secondary ease border-color-secondary rounded-xl border border-solid px-7 py-2 text-lg font-bold leading-relaxed transition duration-200"
+                >Buy Nfts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container py-20">
+          <div class="md:flex items-center justify-center space-x-4">
+            <div>
+              <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold">
+                Discover <br> And Collect <br> Rare NFTs
+              </h1>
+              
+              <p class="text-l font-normal mt-8">
+                The most secure marketplace for buying <br> and selling unique crypto assets.
+              </p>
+  
+              <div class="flex space-x-4">
+                <button class="border border-solid border-color-secondary mt-8 px-9 py-4 rounded-3xl bg-color-secondary hover:opacity-90 transition ease-in-out duration-300">
+                  BUY NFTS
+                </button>
+  
+                <button class="border border-solid border-color-secondary mt-8 px-9 py-4 rounded-3xl hover:opacity-90 transition ease-in-out duration-300">
+                  SELL NFTS
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="images/computer.png" alt="#">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
