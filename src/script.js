@@ -3,7 +3,7 @@
 // navigation toggler
 const hamburger = document.querySelector("#hamburger");
 const menu = document.querySelector("#menu");
-const hLink = document.querySelector("#hLink");
+const hLink = document.querySelectorAll("#hLink");
 const bx = document.querySelector(".bx");
 
 // adding eventlistener
