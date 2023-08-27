@@ -580,10 +580,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .sticky {
   position: sticky;
 }
@@ -601,28 +597,8 @@ video {
   top: 0px;
 }
 
-.left-7 {
-  left: 1.75rem;
-}
-
-.right-8 {
-  right: 2rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-50 {
   z-index: 50;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .m-auto {
